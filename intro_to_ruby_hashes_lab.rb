@@ -1,7 +1,9 @@
-def base_hash
-(base_hash.keys.count).to(eq(1)
-
-	{}
+def base_hash 
+  :base_hash => {
+:keys => {(count = "1")}
+:has_key? => {(railroads = "be_truthy")
+}
+}
 end
 
 def monopoly_with_second_tier
