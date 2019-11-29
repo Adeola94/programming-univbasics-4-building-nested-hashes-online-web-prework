@@ -1,5 +1,6 @@
 def base_hash
-base_hash.keys.count).to(eq(1)
+(base_hash.keys.count).to(eq(1)
+
 	{}
 end
 
