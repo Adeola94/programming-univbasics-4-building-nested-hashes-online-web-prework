@@ -1,5 +1,5 @@
 def base_hash
-  countires_and_ca
+  (base_hash.keys.count).to(eq(1)
 	{}
 end
 
