@@ -7,7 +7,9 @@ def base_hash
 end
 
 def monopoly_with_second_tier
-
+  :railroads => {
+    :has_key? => (pieces = "be_truthy")
+}
 end
 
 def monopoly_with_third_tier
