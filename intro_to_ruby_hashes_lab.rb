@@ -1,5 +1,7 @@
 def base_hash
-  (base_hash.keys.count).to(eq(1)
+  keys = ["North", "west", "south"]
+  count = 1
+  (base_hash.has_key?(:railroads))
 	{}
 end
 
